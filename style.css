@@ -589,7 +589,7 @@ main {
 
 .format {
 	width: 100%;
-	height: 755px;
+	padding: 50px;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -615,7 +615,7 @@ main {
 
 .form__name {
 	height: 51px;
-	width: 23vw;
+	width: 323px;
 	background-color: #FFFFFF;
 	font-size: 15px;
 	font-family: 'Nunito Sans', sans-serif;
@@ -626,18 +626,18 @@ main {
 .form__email {
 
 	height: 51px;
-	width:23vw;
+	width: 323px;
 	background-color: #FFFFFF;
 	font-size: 15px;
 	font-family: 'Nunito Sans', sans-serif;
-
+	
 	padding-left: 22px;
 
 }
 
 .form__title {
 	height: 51px;
-	width: 49vw;
+	width: 673px;
 	background-color: #FFFFFF;
 	font-size: 15px;
 	font-family: 'Nunito Sans', sans-serif;
@@ -648,7 +648,7 @@ main {
 
 .form__comments {
 	height: 173px;
-	width: 49vw;
+	width: 673px;
 	background-color: #FFFFFF;
 	font-size: 15px;
 	font-family: 'Nunito Sans', sans-serif;
@@ -660,7 +660,7 @@ main {
 
 .form__button {
 	height: 57px;
-	width:13vw;
+	width: 183px;
 	background-color: #10C9C3;
 	font-size: 15px;
 	font-family: 'Nunito Sans', sans-serif;
@@ -670,15 +670,25 @@ main {
 }
 
 .form__but {
-	width: 523px;
-	padding-left: 245px;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
 
 }
 
 .form__info {
 	margin-top: 36px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	 
 }
+.form__info div:nth-child(1){
+	margin-right: 27px; 
+}
+
 
 .form__place {
 	margin-top: 27px;
@@ -687,7 +697,8 @@ main {
 }
 .forms{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
+	align-items: center;
 }
 
 .mobile-nav {

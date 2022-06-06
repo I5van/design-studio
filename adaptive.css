@@ -78,7 +78,20 @@
     .footer__media p{
         text-align: center;
     }
-
+    .form__title{
+        width: 323px;
+    }
+    .form__comments{
+        width: 323px;
+    }
+    .form__info{
+        width: 324px;
+    }
+    .form__info div:nth-child(1){
+        margin-left: 22px;
+        margin-bottom: 22px;
+    }
+    
 }
 
 @media only screen and (max-width: 480px) {
